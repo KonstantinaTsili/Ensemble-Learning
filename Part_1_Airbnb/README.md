@@ -30,8 +30,26 @@ The project report is structured as follows:
 To run the code, follow these steps:
 
 1. Clone the repository.
-2. Install the required packages in the 
-3. Run the Jupyter notebook ensemble_learning_airbnb.ipynb to train the model and make predictions.
+2. Install the required packages in the pynotebook
+
+import pandas as pd\
+import numpy as np\
+import matplotlib.pyplot as plt\
+import seaborn as sns\
+from sklearn.linear_model import LogisticRegression\
+from sklearn.linear_model import LinearRegression\
+from sklearn.model_selection import cross_val_score, train_test_split, GridSearchCV\
+from sklearn.metrics import classification_report \
+from sklearn.metrics import confusion_matrix\
+from sklearn.tree import DecisionTreeRegressor\
+from sklearn.metrics import r2_score\
+from sklearn.preprocessing import MaxAbsScaler\
+from sklearn.metrics import mean_squared_error\
+from sklearn.ensemble import ExtraTreesClassifier\
+from sklearn.preprocessing import StandardScaler\
+from sklearn.preprocessing import LabelEncoder
+
+4. Run the Jupyter notebook ensemble_learning_airbnb.ipynb to train the model and make predictions.
 
 ## Datasets used
 
