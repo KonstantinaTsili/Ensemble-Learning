@@ -58,7 +58,7 @@ from sklearn.ensemble import ExtraTreesClassifier\
 from sklearn.preprocessing import StandardScaler\
 from sklearn.preprocessing import LabelEncoder
 
-4. Run the Jupyter notebook ensemble_learning_airbnb.ipynb to train the model and make predictions.
+4. Run the all the Jupyter notebooks to train the model and make predictions.
 
 ## Datasets used
 
