@@ -6,6 +6,15 @@ In the field of accommodation, traditional hotel accommodation still occupies a 
 
 This project aims to develop a regression model using ensemble learning that can accurately predict the prices of accommodations on the Airbnb platform in New York City.
 
+
+## Files 
+**Preliminary models and grid searches folder** contains both EDA and all the grid searches of ensemble models.\
+**Airbnb_EDA.ipynb** contains what we found and created for the section EDA\
+**Airbnb_models.ipynb** contains all the details of modelling process\
+**Airbnb_prepocessing.ipynb** contains the needed steps to get data ready for modelling\
+**airbnb_preprocessed.csv** is the saved csv after preprocessing.
+
+
 ## Project Report Overview
 The project report is structured as follows:
 
